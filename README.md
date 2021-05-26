@@ -57,6 +57,7 @@ Test Presentation: Found 4 slides with non-empty notes in Presentation1.pptx
 
 ## Options
 **--header** - provide a simple text that will be added at the beginning and the end of the output. See examples elsewhere in the document.
+
 **--print-all** -  flag that determines if (titles of) slides without notes are included in the output. See example below
 
 ### Using the `--print-all` option
