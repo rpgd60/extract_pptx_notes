@@ -1,10 +1,15 @@
 ## Introduction
-Simple script that extracts the notes from a presentation using the python-pptx module
-Uses the python-pptx module
-Output - basic markdown text to stdout
+Simple script that extracts the notes from a presentation using the python-pptx module.
+
+Uses the [python-pptx](https://python-pptx.readthedocs.io/en/latest/) module and in particular the section [Working with Notes Slides](https://python-pptx.readthedocs.io/en/latest/user/notes.html) 
+
+Output - basic markdown text to stdout, including:
 - One header per slide including the slide title 
 - One subheader with the slide note contents
 - Note:  Other slide contents not included
+
+Note: This script uses `click` to process command line arguments. The only reason for using click is that I wanted to test / play with it.  Other methods can be used to process the arguments.   
+
 
 ## Basic Operation 
 Default behavior - skip slides with no notes.  In the example below, slide #4 is not included in the output:
