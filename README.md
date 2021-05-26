@@ -18,7 +18,7 @@ The examples in this README file use the "Presentation1.pptx" file included in t
 Default behavior - skip slides with no notes.  In the example below, slide #4 (its header) is not included in the output:
 ```
 $ python extract-notes.py Presentation1.pptx --header "Test Presentation" 
-Test Presentation
+# Test Presentation
 ## [1/5] - Presentation Title 
 ### Note:
 Note in Presentation title slide
@@ -64,7 +64,7 @@ Test Presentation: Found 4 slides with non-empty notes in Presentation1.pptx
 Includes in the output the slides with no notes (slide #4 in the example):
 ```
 $ python extract-notes.py Presentation1.pptx --header "Test Presentation" --print-all
-Test Presentation
+# Test Presentation
 ## [1/5] - Presentation Title 
 ### Note:
 Note in Presentation title slide
